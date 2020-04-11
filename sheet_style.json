@@ -1,0 +1,108 @@
+{
+  "properties": {
+    "spreadsheetTheme": {
+      "primaryFontFamily": "Consolas",
+      "themeColors": [
+        {
+          "colorType": "TEXT",
+          "color": {
+            "rgbColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "colorType": "BACKGROUND",
+          "color": {
+            "rgbColor": {
+              "red": 1,
+              "green": 1,
+              "blue": 1,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "colorType": "ACCENT1",
+          "color": {
+            "rgbColor": {
+              "red": 0.2,
+              "green": 0.4823529411764706,
+              "blue": 0.984313725490196,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "colorType": "ACCENT2",
+          "color": {
+            "rgbColor": {
+              "red": 1,
+              "green": 0.047058823529411764,
+              "blue": 0.10980392156862745,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "colorType": "ACCENT3",
+          "color": {
+            "rgbColor": {
+              "red": 1,
+              "green": 0.7411764705882353,
+              "blue": 0,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "colorType": "ACCENT4",
+          "color": {
+            "rgbColor": {
+              "red": 0,
+              "green": 0.6941176470588235,
+              "blue": 0.30196078431372547,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "colorType": "ACCENT5",
+          "color": {
+            "rgbColor": {
+              "red": 1,
+              "green": 0.3568627450980392,
+              "blue": 0,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "colorType": "ACCENT6",
+          "color": {
+            "rgbColor": {
+              "red": 0,
+              "green": 0.7568627450980392,
+              "blue": 0.788235294117647,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "colorType": "LINK",
+          "color": {
+            "rgbColor": {
+              "red": 0.0196078431372549,
+              "green": 0.27058823529411763,
+              "blue": 0.8235294117647058,
+              "alpha": 1
+            }
+          }
+        }
+      ]
+    }
+  }
+}
