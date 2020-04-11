@@ -1,6 +1,6 @@
 These are scripts that you can use in order to make Google Sheets with Consolas as the default font.
 
-In order for these to work, you will have to download your credentials for the Google Sheets (and optionally the Google Drive) API. Please follow the **first twosteps** of the [Google Sheets API](https://developers.google.com/sheets/api/quickstart/python) and, optionally, the [Google Drive API](https://developers.google.com/drive/api/v3/quickstart/python). You'll need the Google Drive API only if you want to be able make spreadsheets in specific folders--otherwise, the spreadsheets will just appear in the "root" of your Drive. Make sure that you move your credentials into the this folder.
+In order for these to work, you will have to download your credentials for the Google Sheets (and optionally the Google Drive) API. Please follow the **first two steps** of the [Google Sheets API](https://developers.google.com/sheets/api/quickstart/python) and, optionally, the [Google Drive API](https://developers.google.com/drive/api/v3/quickstart/python). You'll need the Google Drive API only if you want to be able make spreadsheets in specific folders--otherwise, the spreadsheets will just appear in the "root" of your Drive. Make sure that you move your credentials into the this folder.
 
 After that, you will need to run sheets_quickstart.py (and optionally drive_quickstart.py).
 

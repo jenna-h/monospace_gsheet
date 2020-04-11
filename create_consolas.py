@@ -25,8 +25,8 @@ def set_up_sheets_service():
 
 def set_up_drive_service():
     global DRIVE_SERVICE
-    if os.path.exists('drive-token.pickle'):
-        with open('drive-token.pickle', 'rb') as token:
+    if os.path.exists(DRIVE_TOKEN_PATH):
+        with open(DRIVE_TOKEN_PATH, 'rb') as token:
             drive_creds = pickle.load(token)
     else:
         print('drive token not found--do setup again')
