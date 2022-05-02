@@ -23,7 +23,7 @@ gsheet "name of 1st sheet" "sheet 2" ... "sheet n" [-p https://link-to-google-dr
 ```
 (The `-p` flag and the link to the parent Google Drive folder are optional.)
 
-Converting sheets to Consolas styling works like this:
+Converting sheets to monospace styling works like this:
 ```
 convert https://link-to-sheet-1 https://link-to-sheet-2 ...
 ```
