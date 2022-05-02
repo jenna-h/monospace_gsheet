@@ -1,7 +1,7 @@
 {
   "properties": {
     "spreadsheetTheme": {
-      "primaryFontFamily": "Consolas",
+      "primaryFontFamily": "Roboto Mono",
       "themeColors": [
         {
           "colorType": "TEXT",

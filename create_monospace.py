@@ -11,7 +11,7 @@ SHEETS_TOKEN_PATH = BASE_DIR + 'sheets-token.pickle'
 STYLE_PATH = BASE_DIR + 'sheet_style.json'
 
 SPREADSHEET_LINK_FORMAT = 'https://docs.google.com/spreadsheets/d/{}/edit#gid=0'
-DRIVE_ID_PREFIX = 'drive/folders/'
+DRIVE_ID_PREFIX = 'folders/'
 
 def set_up_sheets_service():
     global SHEETS_SERVICE
