@@ -3,11 +3,12 @@ import json
 import os.path
 import pickle
 from googleapiclient.discovery import build
+from google.oauth2.credentials import Credentials
 
 # s.join with empty string ensures that there's a trailing slash
 BASE_DIR = os.path.join(os.path.dirname(__file__), '')
-DRIVE_TOKEN_PATH = BASE_DIR + 'drive-token.pickle'
-SHEETS_TOKEN_PATH = BASE_DIR + 'sheets-token.pickle'
+DRIVE_TOKEN_PATH = BASE_DIR + 'drive-token.json'
+SHEETS_TOKEN_PATH = BASE_DIR + 'sheets-token.json'
 STYLE_PATH = BASE_DIR + 'sheet_style.json'
 
 SPREADSHEET_LINK_FORMAT = 'https://docs.google.com/spreadsheets/d/{}/edit#gid=0'
@@ -16,8 +17,7 @@ DRIVE_ID_PREFIX = 'folders/'
 def set_up_sheets_service():
     global SHEETS_SERVICE
     if os.path.exists(SHEETS_TOKEN_PATH):
-        with open(SHEETS_TOKEN_PATH, 'rb') as token:
-            sheets_creds = pickle.load(token)
+        sheets_creds = Credentials.from_authorized_user_file(SHEETS_TOKEN_PATH)
     else:
         print('sheets token not found--do setup again')
 
@@ -26,8 +26,7 @@ def set_up_sheets_service():
 def set_up_drive_service():
     global DRIVE_SERVICE
     if os.path.exists(DRIVE_TOKEN_PATH):
-        with open(DRIVE_TOKEN_PATH, 'rb') as token:
-            drive_creds = pickle.load(token)
+        drive_creds = Credentials.from_authorized_user_file(DRIVE_TOKEN_PATH)
     else:
         print('drive token not found--do setup again')
 
